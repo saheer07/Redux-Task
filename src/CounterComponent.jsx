@@ -10,8 +10,8 @@ const CounterComponent = () => {
     <div style={{ textAlign: 'center', marginTop: '50px' }}>
       <h2>Count: {count}{count === 0 && <p>Minimum limit reached</p>}
       </h2>
-      <button onClick={() => dispatch(increment())}>+1</button>
-      <button onClick={() => dispatch(decrement())}>-1</button>
+      <button onClick={() => dispatch(increment())}>+</button>
+      <button onClick={() => dispatch(decrement())}>-</button>
     </div>
   );
 };
